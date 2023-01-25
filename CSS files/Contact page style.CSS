@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+    
+
+ 
+}
+
+.bg-image {
+   
+    background-image: url("../portfolio images/bigger height p1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.before-about{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 40px;
+    height: 20px;
+    padding-left: 129px;
+    
+    
+    
+
+}
+
+.bio{
+    margin:0; 
+    padding-left: 0;
+    padding-top: 0;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.logo  {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 0;
+    padding-left: 30px;
+    color: #6658B4;
+    width: 3456px;
+
+
+}
+
+.header{
+
+display: flex;}
+    
+.navbar{
+  display: flex;
+  float: right;
+  list-style-type: none;
+  color: #6658B4
+ 
+
+
+  
+}
+.navbar a {
+padding-left : 30px;   
+padding-right : 30px; 
+padding-top: 30px;
+padding-bottom: 7px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Cairo', sans-serif;
+font-weight: 600;
+color: #6658B4
+
+
+
+}
+
+.navbar a:hover {
+    
+    font-family: 'Cairo', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    color: #6658B4
+
+}
+
+.Contact-Me{
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#F8F3CC;
+    text-align: center;
+    
+}
+
+.center {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+
+
+.white{
+    background-color: white;
+    
+    color: #6658B4;
+    border-radius: 10px  0 0  10px ;
+    box-shadow: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    
+
+
+
+}
+
+.user-info{
+
+    background-color: #6658B4;
+    border-radius: 0 10px 10px 0 ;
+    width: 400px;
+
+
+
+}
+
+.title{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #6658B4;
+    
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+
+
+
+
+.my-info{
+    margin: 60px;
+    text-align: left;
+
+}
+
+.inside-userinfo{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+display:flex;
+justify-content: center;
+
+
+}
+
+li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+
+
+#button{
+    padding: 5px 20px 5px 20px;
+    color: #6658B4;
+    background-color: #F8F3CC;
+    border-color: #F8F3CC;
+    border-radius: 10px ;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+
+}
+#button:hover{
+    font-weight: 900 ;
+}
+
+
+
+/*phones screen */
+@media screen and (max-width:480px) {
+
+  
+
+  
+  
+  .center{
+        display: block;
+        margin-top: 0;
+    }
+    
+
+    .my-info{
+        margin-bottom: 0;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .inside-userinfo{
+        margin-left: 50px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+    display:flex;
+    justify-content: center;}
+
+    .number{
+        margin-bottom: 0;
+
+    }
+
+    .white{
+        border-radius: 0;
+        height: 315px;
+        
+        
+    }
+
+    .user-info{
+        border-radius: 0;
+        width: 412px;
+    }
+
+
+
+
+    .logo {
+
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #6658B4;
+        width: 200px;
+        
+            
+        }
+
+
+        .navbar{
+            visibility: hidden;
+            padding-left: 0;
+            width: 0;
+        }
+    }
+
+@media screen and (max-width:300px) {
+
+  
+    .inside-userinfo{
+        margin-left: 50px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+    display:flex;
+    justify-content: center;}
+  
+  
+  .center{
+        display: block;
+        margin-top: 0;
+    }
+    
+
+    .my-info{
+        margin-bottom: 0;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .inside-userinfo{
+        margin-top: 0;
+    }
+
+    .number{
+        margin-bottom: 0;
+
+    }
+
+    .white{
+        border-radius: 0;
+        height: 315px;
+        
+        
+    }
+
+    .user-info{
+        border-radius: 0;
+        width: 412px;
+        
+    }
+
+
+
+
+    .logo {
+
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #6658B4;
+        width: 200px;
+        
+            
+        }
+
+
+        .navbar{
+            visibility: hidden;
+            padding-left: 0;
+            width: 0;
+        }
+    }
+
+/*tablets screen */
+@media screen and (max-width:767px) {
+
+
+    .center{
+        display: block;
+        margin-top: 0;
+    }
+    
+
+    .my-info{
+        margin-bottom: 0;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .inside-userinfo{
+        margin-top: 0;
+    }
+
+    .number{
+        margin-bottom: 0;
+
+    }
+
+    .white{
+        border-radius: 0;
+        height: 315px;
+           
+    }
+
+    .user-info{
+        border-radius: 0;
+        width: 412px;
+    }
+
+
+
+    .logo {
+
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #6658B4;
+        width: 200px;
+        
+            
+        }
+
+       
+    
+       .navbar{
+            visibility: hidden;
+            padding-left: 0;
+            width: 0;
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

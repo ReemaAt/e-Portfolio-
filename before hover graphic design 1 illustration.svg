@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 478.8 445.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9180ee;
+        opacity: .6;
+      }
+
+      .cls-2 {
+        fill: #31a8ff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        font-family: Cairo-Bold, Cairo;
+        font-size: 70.1px;
+        font-variation-settings: 'wght' 700;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: Cairo-ExtraBold, Cairo;
+        font-size: 40.56px;
+        font-variation-settings: 'wght' 800;
+      }
+
+      .cls-4 {
+        fill: #ff9a00;
+      }
+
+      .cls-6 {
+        fill: #001e36;
+      }
+
+      .cls-5 {
+        fill: #f73163;
+      }
+
+      .cls-7 {
+        fill: #47021e;
+      }
+
+      .cls-8 {
+        fill: #300;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-7" x="40.55" y="197.25" width="117" height="117" rx="23.21" ry="23.21"/>
+      <text class="cls-5" transform="translate(70.9 278.96)"><tspan x="0" y="0">Id</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-6" x="178.55" y="197.25" width="117" height="117" rx="23.21" ry="23.21"/>
+      <text class="cls-2" transform="translate(199.42 279.2)"><tspan x="0" y="0">Ps</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-8" x="316.55" y="197.25" width="117" height="117" rx="23.21" ry="23.21"/>
+      <text class="cls-4" transform="translate(344.93 279.35)"><tspan x="0" y="0">Ai</tspan></text>
+    </g>
+  </g>
+  <path class="cls-1" d="m428.7,445.5H50c-27.6,0-50-22.4-50-50V50C0,22.4,22.4,0,50,0h378.8c27.6,0,50,22.4,50,50v345.5c-.1,27.6-22.4,50-50.1,50Z"/>
+  <text class="cls-3" transform="translate(91.1 231.64)"><tspan x="0" y="0">Graphic Design 1</tspan></text>
+</svg>

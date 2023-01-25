@@ -1,0 +1,130 @@
+.Name {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6658B4;
+    
+
+
+}
+
+.main-div{
+    font-family: 'Cairo', sans-serif;
+
+
+}
+
+
+h1{
+    font-weight: 1000;
+    color: #6658B4;
+
+}
+
+h2{
+    font-weight:800;
+    color: #6658B4;
+
+}
+
+.sub-div{
+    margin-left: 270px;
+    margin-right: 400px;
+}
+
+
+p{
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+h3{
+    color: rgb(63, 61, 61);
+}
+
+ul {
+    display: inline-block;
+
+}
+ul li {
+    font-weight: 600;
+    font-size: 12pt;
+
+}
+
+
+
+/*.bio{
+
+    width: 100px;
+
+}*/
+
+
+.Experience{
+
+    padding-left: 20px;
+    border-left: 1px solid #6658B4;
+    margin-top: 50px;
+
+}
+
+.Education{
+
+    padding-left: 20px;
+    border-left: 1px solid #6658B4;
+    margin-top: 50px;
+}
+
+.skills {
+    padding-left: 20px;
+    border-left: 1px solid #6658B4;
+    margin-top: 50px;
+
+}
+
+.Awards {
+    padding-left: 20px;
+    border-left: 1px solid #6658B4;
+    margin-top: 50px;
+
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #6658B4;
+    display: block;
+}
+
+/*phones screen */
+
+@media screen and (max-width:300px) {
+    .sub-div{
+        margin-left: 0;
+        margin-right: 0;
+    
+    
+    }
+
+}
+@media screen and (max-width:480px) {
+.sub-div{
+    margin-left: 0;
+    margin-right: 0;
+
+
+}
+ }
+
+ /*tablets screen */
+@media screen and (max-width:767px) {
+    .sub-div{
+        margin-left: 0;
+        margin-right: 0;
+    
+    
+    }
+
+
+}

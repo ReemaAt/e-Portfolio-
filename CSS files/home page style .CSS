@@ -1,0 +1,346 @@
+
+body{
+    margin: 0;
+
+ 
+}
+.bg-image {
+   
+    background-image: url("../portfolio images/bigger\ height\ p1-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+}
+
+.logo  {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.1875rem;
+    font-weight: 900;
+    margin-top: 0;
+    padding-left: 30px;
+    color: #6658B4;
+    width: 3456px;
+
+
+}
+
+.header{
+display: flex;
+
+}
+    
+.navbar{
+  display: flex;
+  float: right;
+  list-style-type: none;
+  color: #6658B4;
+ 
+
+
+  
+}
+
+.navbar a {
+padding-left : 30px;   
+padding-right : 30px; 
+padding-top: 30px;
+padding-bottom: 7px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Cairo', sans-serif;
+font-weight: 600;
+color: #6658B4;
+
+
+
+}
+
+.navbar a:hover {
+    
+    font-family: 'Cairo', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    color: #6658B4;
+
+}
+
+.nav-bar-icon {
+    visibility: hidden;
+    width: 0;
+
+}
+
+
+.center-div{
+
+        position:absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        text-align: center;
+        margin-inline: auto;
+        
+
+}
+
+.main-title{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+    font-size: 60pt;
+    line-height: 90pt;
+    width:600px;
+    height: 240px;
+    color: #6658B4;
+    
+
+
+}
+
+/*phones screen */
+@media screen and (max-width:480px) {
+
+
+
+    .logo {
+
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #6658B4;
+    width: 300px
+        
+    }
+
+    .navbar{
+        visibility: hidden;
+        width: 100px;
+
+
+    }
+
+    .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 23px ;
+        
+
+        
+    
+    }
+
+    .nav-bar-icon:hover{
+
+        src: url('../nav\ bar\ responsive\ .html');
+    }
+
+
+
+    .main-title {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 70pt;
+    width: 328px;
+    height: 240px;
+    color: #6658B4;
+    margin-bottom: 0 ;
+}
+
+}
+
+@media screen and (max-width:300px) {
+
+    .logo {
+
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #6658B4;
+        width: 100px
+            
+        }
+    
+        .navbar{
+            visibility: hidden;
+            width: 10px;
+    
+    
+        }
+
+        .nav-bar-icon {
+            visibility:visible;
+             width: 28px;
+             margin: 23px 23px 23px 23px ;
+            
+    
+            
+        
+        }
+    
+        .nav-bar-icon:hover{
+    
+            src: url('../nav\ bar\ responsive\ .html');
+        }
+
+    
+    
+        .main-title {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 1000;
+        font-size: 34px;
+        line-height: 50pt;
+        width: 220px;
+        height: 150px;
+        color: #6658B4;
+        margin-bottom: 22.780px ;
+    }
+    
+
+}
+/*tablets screen */
+@media screen and (max-width:767px) {
+
+    .logo {
+
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #6658B4;
+        width: 300px
+            
+        }
+    
+        .navbar{
+            visibility: hidden;
+            width: 100px;
+    
+    
+        }
+
+        .nav-bar-icon {
+            visibility:visible;
+             width: 28px;
+             margin: 23px 23px 23px 23px ;
+            
+    
+            
+        
+        }
+    
+        .nav-bar-icon:hover{
+    
+            src: url('../nav\ bar\ responsive\ .html');
+        }
+    
+        .main-title {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 1000;
+        font-size: 50px;
+        line-height: 70pt;
+        width: 328px;
+        height: 240px;
+        color: #6658B4;
+        margin-bottom: 0 ;
+    }
+
+}
+
+
+/*
+    
+@media screen and (max-width: 375px) {
+    .main-title{
+        font-size: 34pt;
+        font-weight: 1000;
+        line-height: 60pt;
+        width: 359px;
+        height: 150px;
+        color: #6658B4;
+    } 
+
+
+
+    
+}
+
+@media screen and (max-width: 390px) {
+    .main-title {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+    font-size: 39pt;
+    line-height: 89pt;
+    width: 400px;
+    height: 240px;
+    color: #6658B4;
+}
+}
+
+
+@media screen and (max-width: 540px) {
+    .main-title {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 1000;
+        font-size: 44pt;
+        line-height: 85pt;
+        width: 400px;
+        height: 240px;
+        color: #6658B4;
+}
+
+
+    }*/
+   
+  
+
+    
+
+
+.main-button{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+    background-color:#6658B4 ;
+    border: none;
+    color:#F9EFB0;
+    width:200px;
+    border-radius: 40px;
+    padding: 4px 28px;
+    text-decoration: none;
+
+
+
+
+}
+
+.main-button:hover {
+
+    font-family: 'Cairo', sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+    background-color: #F9EFB0 ;
+    border:#6658B4 solid ;
+    color:#6658B4;
+    width:200px;
+    border-radius: 40px;
+    padding: 4px 28px;
+    text-decoration: none;
+
+}
+
