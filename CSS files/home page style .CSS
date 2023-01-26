@@ -105,7 +105,11 @@ color: #6658B4;
 /*phones screen */
 @media screen and (max-width:480px) {
 
-
+@font-face {
+src: url(../Cairo-VariableFont_slnt\,wght.ttf);
+font-family: 'Cairo', sans-serif;
+}
+    
 
     .logo {
 
@@ -159,6 +163,11 @@ color: #6658B4;
 }
 
 @media screen and (max-width:300px) {
+    
+    @font-face {
+src: url(../Cairo-VariableFont_slnt\,wght.ttf);
+font-family: 'Cairo', sans-serif;
+}
 
     .logo {
 
@@ -213,6 +222,11 @@ color: #6658B4;
 }
 /*tablets screen */
 @media screen and (max-width:767px) {
+    
+     @font-face {
+        src: url(../Cairo-VariableFont_slnt\,wght.ttf);
+        font-family: 'Cairo', sans-serif;
+        }
 
     .logo {
 
@@ -264,51 +278,6 @@ color: #6658B4;
 }
 
 
-/*
-    
-@media screen and (max-width: 375px) {
-    .main-title{
-        font-size: 34pt;
-        font-weight: 1000;
-        line-height: 60pt;
-        width: 359px;
-        height: 150px;
-        color: #6658B4;
-    } 
-
-
-
-    
-}
-
-@media screen and (max-width: 390px) {
-    .main-title {
-    font-family: 'Cairo', sans-serif;
-    font-weight: 1000;
-    font-size: 39pt;
-    line-height: 89pt;
-    width: 400px;
-    height: 240px;
-    color: #6658B4;
-}
-}
-
-
-@media screen and (max-width: 540px) {
-    .main-title {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 1000;
-        font-size: 44pt;
-        line-height: 85pt;
-        width: 400px;
-        height: 240px;
-        color: #6658B4;
-}
-
-
-    }*/
-   
-  
 
     
 
