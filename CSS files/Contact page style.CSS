@@ -5,6 +5,12 @@ body{
  
 }
 
+.nav-bar-icon {
+    visibility: hidden;
+    width: 0;
+
+}
+
 .bg-image {
    
     background-image: url("../portfolio images/bigger height p1.jpg");
