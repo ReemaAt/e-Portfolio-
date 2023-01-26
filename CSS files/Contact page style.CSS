@@ -5,9 +5,12 @@ body{
  
 }
 
+
+
 .nav-bar-icon {
     visibility: hidden;
     width: 0;
+    float:right;
 
 }
 
@@ -51,6 +54,7 @@ img {
     padding-left: 30px;
     color: #6658B4;
     width: 3456px;
+    
 
 
 }
@@ -273,6 +277,7 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
+        margin-right:130;
         
             
         }
@@ -363,6 +368,7 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
+        margin-right:130;
         
             
         }
@@ -442,6 +448,7 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
+        margin-right:130;
         
             
         }
