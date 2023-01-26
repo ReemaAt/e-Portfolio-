@@ -6,14 +6,6 @@ body{
 }
 
 
-
-.nav-bar-icon {
-    visibility: hidden;
-    width: 0;
-    float:right;
-
-}
-
 .bg-image {
    
     background-image: url("../portfolio images/bigger height p1.jpg");
@@ -157,9 +149,6 @@ h1{
 }
 
 
-
-
-
 .my-info{
     margin: 60px;
     text-align: left;
@@ -205,18 +194,6 @@ li a{
 
 /*phones screen */
 @media screen and (max-width:480px) {
-    
-    
-     .nav-bar-icon {
-        visibility:visible;
-         width: 28px;
-         margin: 23px 23px 23px 0px ;
-         padding-left: 0;
-        
-
-        
-    
-    }
 
   #button a {
     margin-top: 100px;
@@ -277,7 +254,7 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
-        margin-right:130;
+        
         
             
         }
@@ -292,16 +269,7 @@ li a{
 
 @media screen and (max-width:300px) {
 
-     .nav-bar-icon {
-        visibility:visible;
-         width: 28px;
-         margin: 23px 23px 23px 0px ;
-         padding-left: 0;
-        
 
-        
-    
-    }
     
     
     #button a {
@@ -368,7 +336,7 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
-        margin-right:130;
+        
         
             
         }
@@ -384,16 +352,7 @@ li a{
 /*tablets screen */
 @media screen and (max-width:767px) {
     
-     .nav-bar-icon {
-        visibility:visible;
-         width: 28px;
-         margin: 23px 23px 23px 0px ;
-         padding-left: 0;
-        
-
-        
-    
-    }
+ 
 
     
     #button a {
@@ -447,14 +406,10 @@ li a{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 200px;
-        margin-right:130;
-        
+        width: 200px;   
             
         }
 
-       
-    
        .navbar{
             visibility: hidden;
             padding-left: 0;
