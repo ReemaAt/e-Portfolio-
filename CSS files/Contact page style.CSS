@@ -195,7 +195,7 @@ li a{
 /*phones screen */
 @media screen and (max-width:480px) {
 
-  #button a {
+  .Email-me{
     margin-top: 100px;
     margin-right: 30px;
     }
@@ -272,7 +272,7 @@ li a{
 
     
     
-    #button a {
+   .Email-me{
     margin-top: 100px;
     margin-right: 30px;
     }
@@ -355,7 +355,7 @@ li a{
  
 
     
-    #button a {
+   .Email-me{
     margin-top: 100px;
     margin-right: 30px;
     }
