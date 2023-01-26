@@ -5,7 +5,6 @@ body{
  
 }
 
-
 .bg-image {
    
     background-image: url("../portfolio images/bigger height p1.jpg");
@@ -46,7 +45,6 @@ img {
     padding-left: 30px;
     color: #6658B4;
     width: 3456px;
-    
 
 
 }
@@ -149,6 +147,9 @@ h1{
 }
 
 
+
+
+
 .my-info{
     margin: 60px;
     text-align: left;
@@ -195,10 +196,7 @@ li a{
 /*phones screen */
 @media screen and (max-width:480px) {
 
-  .Email-me{
-    margin-top: 100px;
-    margin-right: 15px;
-    }
+  
 
   
   
@@ -237,7 +235,6 @@ li a{
     .user-info{
         border-radius: 0;
         width: 412px;
-        height: 300px;
     }
 
 
@@ -254,7 +251,6 @@ li a{
         padding-top: 10px;
         color: #6658B4;
         width: 200px;
-        
         
             
         }
@@ -269,14 +265,6 @@ li a{
 
 @media screen and (max-width:300px) {
 
-
-    
-    
-   .Email-me{
-    margin-top: 100px;
-    margin-right: 15px;
-    }
-    
   
     .inside-userinfo{
         margin-left: 50px;
@@ -318,7 +306,6 @@ li a{
     .user-info{
         border-radius: 0;
         width: 412px;
-        height: 300px;
         
     }
 
@@ -337,7 +324,6 @@ li a{
         color: #6658B4;
         width: 200px;
         
-        
             
         }
 
@@ -351,15 +337,7 @@ li a{
 
 /*tablets screen */
 @media screen and (max-width:767px) {
-    
- 
 
-    
-   .Email-me{
-    margin-top: 100px;
-    margin-right: 15px;
-    }
-    
 
     .center{
         display: block;
@@ -391,7 +369,6 @@ li a{
     .user-info{
         border-radius: 0;
         width: 412px;
-        height: 300px;
     }
 
 
@@ -406,10 +383,13 @@ li a{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 200px;   
+        width: 200px;
+        
             
         }
 
+       
+    
        .navbar{
             visibility: hidden;
             padding-left: 0;
