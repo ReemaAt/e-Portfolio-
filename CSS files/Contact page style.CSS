@@ -195,6 +195,18 @@ li a{
 
 /*phones screen */
 @media screen and (max-width:480px) {
+    
+    
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 0px ;
+         padding-left: 0;
+        
+
+        
+    
+    }
 
   #button a {
     margin-top: 100px;
@@ -269,6 +281,16 @@ li a{
 
 @media screen and (max-width:300px) {
 
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 0px ;
+         padding-left: 0;
+        
+
+        
+    
+    }
     
     
     #button a {
@@ -349,6 +371,17 @@ li a{
 
 /*tablets screen */
 @media screen and (max-width:767px) {
+    
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 0px ;
+         padding-left: 0;
+        
+
+        
+    
+    }
 
     
     #button a {
