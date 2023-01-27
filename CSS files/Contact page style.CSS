@@ -88,6 +88,12 @@ color: #6658B4
 
 }
 
+.nav-bar-icon {
+    visibility: hidden;
+    width: 0;
+
+}
+
 .Contact-Me{
     font-family: 'Cairo', sans-serif;
     font-size: 40px;
@@ -253,7 +259,7 @@ li a{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 200px;
+        width: 300px;
         
             
         }
@@ -264,6 +270,12 @@ li a{
             padding-left: 0;
             width: 0;
         }
+    
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 23px ;
+    
     }
 
 @media screen and (max-width:300px) {
@@ -330,7 +342,7 @@ li a{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 200px;
+        width: 300px;
         
             
         }
@@ -341,6 +353,11 @@ li a{
             padding-left: 0;
             width: 0;
         }
+    
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 23px ;
     }
 
 /*tablets screen */
@@ -392,7 +409,7 @@ li a{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 200px;
+        width: 300px;
         
             
         }
@@ -404,6 +421,11 @@ li a{
             padding-left: 0;
             width: 0;
         }
+    
+     .nav-bar-icon {
+        visibility:visible;
+         width: 28px;
+         margin: 23px 23px 23px 23px ;
     
     }
 
