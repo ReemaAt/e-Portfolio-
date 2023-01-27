@@ -170,9 +170,9 @@ p2{
 
 @media screen and (max-width:300px) {
     
-    .nav-bar-icon a {
-      width:129px;
-    }
+    
+    
+    
 
 
 
@@ -186,7 +186,8 @@ p2{
         padding-left: 30px;
         padding-top: 10px;
         color: #6658B4;
-        width: 100px
+        width: 100px;
+          
             
         }
     
@@ -291,9 +292,7 @@ p2{
 
 @media screen and (max-width:480px) {
 
-  .nav-bar-icon a {
-      width:129px;
-    }
+ 
 
 
     .logo {
@@ -410,9 +409,7 @@ p2{
 /*tablets screen */
 @media screen and (max-width:767px) {
     
-    .nav-bar-icon a {
-      width:129px;
-    }
+  
 
     .logo {
 
@@ -511,15 +508,7 @@ p2{
 
 }
     
-     .nav-bar-icon {
-        visibility:visible;
-         width: 28px;
-         margin: 23px 23px 23px 0 ;
-        
-
-        
-    
-    }
+   
 
 }
 
