@@ -169,6 +169,10 @@ p2{
 /*phones screen */
 
 @media screen and (max-width:300px) {
+    
+    .nav-bar-icon a {
+      width:129px;
+    }
 
 
 
@@ -287,7 +291,9 @@ p2{
 
 @media screen and (max-width:480px) {
 
-  
+  .nav-bar-icon a {
+      width:129px;
+    }
 
 
     .logo {
@@ -403,6 +409,10 @@ p2{
 
 /*tablets screen */
 @media screen and (max-width:767px) {
+    
+    .nav-bar-icon a {
+      width:129px;
+    }
 
     .logo {
 
