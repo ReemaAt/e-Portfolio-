@@ -148,8 +148,9 @@ h1{
 }
 
 .inside-userinfo{
+    
+     margin-top: 0px;
     margin-left: 50px;
-    margin-top: 150px;
     margin-bottom: 100px;
     margin-right: 50px;
 display:flex;
@@ -208,7 +209,7 @@ li a{
 
     .inside-userinfo{
         margin-left: 50px;
-        margin-top: 150px;
+        margin-top: 0px;
         margin-bottom: 100px;
         margin-right: 50px;
     display:flex;
@@ -273,7 +274,7 @@ li a{
   
     .inside-userinfo{
         margin-left: 50px;
-        margin-top: 150px;
+        margin-top: 0px;
         margin-bottom: 100px;
         margin-right: 50px;
     display:flex;
