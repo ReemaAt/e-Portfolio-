@@ -3,12 +3,9 @@ src: url(../Cairo-VariableFont_slnt\,wght.ttf);
 font-family: 'Cairo', sans-serif;
 }
 
-body{
+.body{
     margin: 0;
-     background-color:  #F8F3CC;
-
- 
-
+     background-color: #F8F3CC;
 
  
 }
